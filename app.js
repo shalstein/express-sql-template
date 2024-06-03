@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/todos", async (req, res) => {
-   await db. 
+  await db.get("select * from todos");
 });
 
 app.listen(3000, () => {

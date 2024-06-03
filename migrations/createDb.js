@@ -6,6 +6,11 @@ const { Client } = require("pg");
 const client = new Client({
   connectionString:
     "postgres://express_sfrf_user:8pM1HxIvufvzJtw0oNu86eR42IdPL7Xz@dpg-cpegnqlds78s73f05bog-a.ohio-postgres.render.com/express_sfrf",
+  user: "express_sfrf_user",
+  password,
+  host,
+  port,
+  database,
 });
 
 client
